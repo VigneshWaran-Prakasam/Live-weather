@@ -7,7 +7,7 @@ const geocode = (address,callback)=>
     {
         if(error)
         {
-            callback("please check your internet connection",undefined)
+            callback("please check your internet  connect",undefined)
         }
         else if(body.features.length === 0){
             callback("please enter the vaild input!",undefined)
